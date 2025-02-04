@@ -11,6 +11,8 @@ public class VechicleFactory {
                 return new Car();
             case "bike":
                 return new Bike();
+            case "truck":
+                return new Truck();
             default:
                 throw new IllegalArgumentException("unknow vechicle type");
         }
